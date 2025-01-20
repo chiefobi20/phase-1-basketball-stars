@@ -45,7 +45,7 @@
             "team(s)": "Chicago Bulls, New York Knicks, Cleveland Cavaliers, Minnesota Timberwolves, Detroit Pistons, Memphis Grizzlies",
             "draft year & pick": "2008, Rd 1 Pick 1",
             "accolades": "3x All Star, 2010-11 All-NBA, 2008-09 All-Rookie, 2008-09 ROY, 2010-11 NBA MVP, 2x FIBA Worl Cup Gold Medalist",
-            "bio": "",
+            "bio": "Derrick Martell Rose is a former professional basketball player who played PG in the NBA for 15 seasons. He was born on October 4, 1988 in Chicago, Illinois and attended Simeon HS and then Memphis University. He was the youngest player ever to have been an NBA MVP and was well known for his outstanding athleticism, finishing ability including his ferocious dunks, and his unwavering leadership in times that helped his team when it counted the most. Injuries unfortunately plagued his career but he was able to make the most out of it and always left everything on the floor when he stepped on the court. He will always be remembered as one of the most talented and domainant PGs of the 2000-10 decade.",
             "id": "6"
         },
         {
@@ -53,72 +53,32 @@
             "team(s)": "Denver Nuggets, New York Knicks, Oklahoma City Thunder, Houston Rockets, Portland Trailblazers, Los Angeles Lakers",
             "draft year & pick": "2003, Rd 1 Pick 3",
             "accolades": "10x All Star, 2012-13 Scoring Champ, 6x All-NBA, 2003-04 All Rookie, NBA 75th Anniv. Team",
-            "bio": "",
+            "bio": "Carmelo Kyam Anthony is a former professional basketball player who played SF/PF in the NBA for 19 years. He was born on May 29, 1984 in Brooklyn, New York and attended Towson Catholic HS and then Syracuse University. He was well known as one of the best scorers in the NBA and having one of the best post work games as well. His jumpshot was electric and he was a strong leader for his team in times when it counted the most. His playstyle and spontaneous hot streaks have been attributes that have helped him in pushing his teams through to win games.",
             "id": "7"
         },
         {
-            "name": "Devin Booker",
-            "team(s)": "Phoenix Suns",
-            "draft year & pick": "",
-            "accolades": "",
-            "bio": "",
+            "name": "Giannis Antetokounmpo",
+            "team(s)": "Milwaukee Bucks",
+            "draft year & pick": "2013, Rd 1 Pick 15",
+            "accolades": "8x NBA All Star, 8x All-NBA, 2013-14 All-Rookie, 2021 NBA Champ, 5x All-Defensive, 2016-17 MIP, 2x NBA MVP, 2020-21 Finals MVP, 2019-20 Def POY, NBA 75th Anniv. Team",
+            "bio": "Giannis Antetokounmpo is a Greek-Nigerian professional basketball player who currently plays PF for the Milwaukee Bucks. He was born on December 6, 1994 in Athens, Greece to Nigerian parents and grew up playing basketball around the age of 17. He has settled in as one of the formidable players in the NBA with his unique set of athleticism and long frame earning him the nickname Greek Freak. His archetype and resilience has helped him dominate the game on both sides and lead his team into victorious situations while reshaping the way a player with his size, speed and strength can takeover in the sport of basketball.",
             "id": "8"
         },
         {
             "name": "Dwyane Wade",
-            "team(s)": "",
-            "draft year & pick": "",
-            "accolades": "",
-            "bio": "",
+            "team(s)": "Miami Heat, Chicago Bulls, Cleveland Cavaliers",
+            "draft year & pick": "2003, Rd 1 Pick 5",
+            "accolades": "13x All Star, 2003-04 All-Rookie, 2008-09 Scoring Champ, 3x NBA Champ, 8x All-NBA, 3x All Defensive, 2005-06 Finals MVP, NBA 75th Anniv. Team, Hall of Fame, 2x Olympic Medalist(1G,1B)",
+            "bio": "Dwyane Tyrone Wade Jr. is a former professional basketball player who played SG in the NBA for 16 years. He was born on January 17, 1982 in Chicago, Illinois and attended Richards HS and then Marquette University. He was well known as one of the best SGs of the NBA and his electrifying athleticism was a contributing factor as well. He was dominant scorer, work horse and tenacious defender who never gave up on plays and always intimidated his opponents. His playstyle, leadership and unrelenting work has redefined the SG position and changed the way the game of basketball is played.",
             "id": "9"
         },
         {
-            "name": "Dwight Howard",
-            "team(s)": "Orlando Magic,",
-            "draft year & pick": "",
-            "accolades": "",
-            "bio": "",
+            "name": "Nikola Jokić",
+            "team(s)": "Denver Nuggets",
+            "draft year & pick": "2014, Rd 2 Pick 11",
+            "accolades": "6x All Star, 6x All-NBA, 3x NBA MVP, 2023 NBA Champ, 2022-23 Finals MVP, 2015-16 All-Rookie, 2022-23 WCF MVP",
+            "bio": "Nikola Jokić is a Serbian professional basketball player who currently plays C for the Denver Nuggets. He was born on February 19, 1995 in Sombor, Serbia and started playing basketball around the age of 17. He is well known for being one of the most exciting and dominant faces in the NBA due to his remarkable ability to effectively score in the paint, being able to stretch the floor with his shooting and also being an excellent playmaker with his impeccable passing. His unique playstyle and leadership has solidifid him as one of the most prolific centers in the NBA and has redefined the center position because of it.",
             "id": "10"
-        },
-        {
-            "name": "Kobe Bryant",
-            "team(s)": "Los Angeles Lakers",
-            "draft year & pick": "",
-            "accolades": "",
-            "bio": "",
-            "id": "11"
-        },
-        {
-            "name": "Michael Jordan",
-            "team(s)": "Chicago Bulls, Washington Wizards",
-            "draft year & pick": "",
-            "accolades": "",
-            "bio": "",
-            "id": "12"
-        },
-        {
-            "name": "Shaquille O'Neal",
-            "team(s)": "Orlando Magic,",
-            "draft year & pick": "",
-            "accolades": "",
-            "bio": "",
-            "id": ""
-        },
-        {
-            "name": "Dirk Nowitzki",
-            "team(s)": "Dallas Mavericks",
-            "draft year & pick": "",
-            "accolades": "",
-            "bio": "",
-            "id": ""
-        },
-        {
-            "name": "Kawhi Leonard",
-            "team(s)": "San Antonio Spurs, Toronto Raptors, Los Angeles Clippers,",
-            "draft year & pick": "",
-            "accolades": "",
-            "bio": "",
-            "id": ""
         }
     ]
 }
