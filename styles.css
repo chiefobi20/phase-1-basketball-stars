@@ -1,1 +1,13 @@
-header-size: 10xp
+html{
+    scroll-behavior:smooth
+}
+
+body{
+    font-family: "Cinzel", serif;
+}
+
+h4{
+    color:aliceblue;
+    font-size: 3rem;
+    margin-top: 10px;
+}
