@@ -15,57 +15,41 @@ function addBasketballPlayerImageToDiv(player){
     nbaPlayersDivElement.appendChild(playerImageElement)
 
 }
+const newPlayerForm = document.getElementById('new-player')
+    newPlayerForm.addEventListener('submit', (event) => {
+        event.preventDefault()
 
-// const handleDisplay = (player) => {
-// const playerName = document.getElementsByClassName('name')
-//     playerName.textContent = player.name
-//     console.log(playerName)
-// }
+        const newNameInput = document.getElementById('new_name')
+        const newTeamInput = document.getElementById('new_team')
+        const newDraftInput = document.getElementById('new_draft')
+        const newNumberInput = document.getElementById('jersey_number')
+
+        const newPlayer = {
+            name: newNameInput.value,
+            team: newTeamInput.value,
+            draft: newDraftInput.value,
+            number: newNumberInput.value
+        }
+        fetch('http://localhost:3000/basketballPlayers',{
+            method: 'POST',
+            headers: {
+                'Content-Type': "application/json",
+                'Accept': "application/json"
+            },
+            body:JSON.stringify(newPlayer)
+        })
+        .then(response => {
+            if(response.ok){
+                response.json().then(newPlayerData => {
+                    addBasketballPlayerImageToDiv(newPlayerData)
+                })
+            }
+            else{
+                alert("Error: Must Add Player!")
+            }
+        })
+    })
+
+    newPlayerForm.reset()
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-// //assestment stuff
-// // const sport = "Soccer"
-
-// function playSport(sport){
-//     console.log("It's time to play" + sport)
-// }
-
-// const myFunc = function(){
-//     return 'I am having a blast !'
-// }
-
-// myFunc()
-
-// const num = 9
-
-// function newValue(){
-//     const anotherNum = 10
-//     return num * anotherNum
-// }
-
-// newValue(90)
-
-// const foods = ['Cheeseburger']
-// foods.push('Pizza')
-
-// foods.forEach((food) => {
-//     `I love ${food}`
-// })
-
-// const newID = document.querySelector('#title-text')
-
-// newID.addEventListener('click',() => {
-//     console.log("Hello, flatiron!")
-// } )
