@@ -6,14 +6,21 @@ fetch('http://localhost:3000/basketballPlayers')
     })
 })
 
+
+
 function addBasketballPlayerImageToDiv(player){
     const playerImageElement = document.createElement('img')
     playerImageElement.src = player.image
     const nbaPlayersDivElement = document.getElementById('nba-players')
     nbaPlayersDivElement.appendChild(playerImageElement)
+
 }
 
-
+// const handleDisplay = (player) => {
+// const playerName = document.getElementsByClassName('name')
+//     playerName.textContent = player.name
+//     console.log(playerName)
+// }
 
 
 
