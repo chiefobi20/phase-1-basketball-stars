@@ -23,7 +23,7 @@ h4{
     margin-top: 75px;
 }
 
-
+/*Nav top settings*/
 a{
     transition: all 300ms ease;
 }
@@ -74,6 +74,7 @@ a:hover{
     cursor: default;
 }
 
+/*Display time*/
 #display{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -93,7 +94,7 @@ h2{
     text-shadow: 1px 1px 1px black;
 }
 
-
+/*Form*/
 
 form{
     margin: auto;
@@ -120,6 +121,35 @@ input, textarea{
 #submit-button{
     margin-top: 15px;
     color: black;
-    border: 1px;
+    border: 1px solid black;
+    background-color: rgb(160, 116, 111);
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+#submit-button:active{
+    background-color: sienna;
+}
+
+#submit-button:hover{
+    color: white
+}
+
+/*Players catalog*/
+#nba-players img{
+    height: 40vh;
+    margin: 35px;
+    border-color: black;
+    box-shadow: 15px 15px 15px black;
+    cursor: pointer;
+}
+
+#nba-players{
+    transition: width 0.3s ease, height 0.3s ease;
+    background-color: rgb(84, 138, 209);
 
 }
+
